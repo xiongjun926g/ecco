@@ -52,6 +52,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Utilities',
@@ -65,10 +66,10 @@ setup(
     ],
     python_requires='!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
     install_requires=[
-        "transformers ~= 4.2",
+        "transformers ~= 4.29",
         "seaborn ~= 0.11",
-        "scikit-learn~=0.23",
-        "PyYAML~=5.4",
+        "scikit-learn~=1.2.2",
+        "PyYAML~=6.0",
         "captum ~= 0.4"
     ],
     extras_require={
