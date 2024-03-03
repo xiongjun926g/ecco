@@ -66,7 +66,9 @@ def from_pretrained(hf_model_id: str,
         gpu (Optional[bool]): Set to False to force using the CPU even if a GPU exists. Defaults to True.
     """
 
-    print("asdf asdf oi oi to check place to modify")
+    # print("asdf asdf oi oi to check place to modify")
+    ipdb.set_trace()
+                        
     if model_config:
         config = pack_tokenizer_config(model_config)
     else:
