@@ -17,7 +17,7 @@ from ecco.lm import LM
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel, AutoModelForSeq2SeqLM
 from typing import Any, Dict, Optional, List
 from ecco.util import load_config, pack_tokenizer_config
-!pip install ipdb -q
+pip install ipdb -q
 import ipdb
 
 def from_pretrained(hf_model_id: str,
