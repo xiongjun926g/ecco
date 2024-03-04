@@ -17,7 +17,7 @@ from ecco.lm import LM
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModel, AutoModelForSeq2SeqLM
 from typing import Any, Dict, Optional, List
 from ecco.util import load_config, pack_tokenizer_config
-pip install ipdb -q
+# pip install ipdb -q
 import ipdb
 
 def from_pretrained(hf_model_id: str,
@@ -68,7 +68,7 @@ def from_pretrained(hf_model_id: str,
     """
 
     # print("asdf asdf oi oi to check place to modify")
-    ipdb.set_trace()
+    # ipdb.set_trace()
                         
     if model_config:
         config = pack_tokenizer_config(model_config)
